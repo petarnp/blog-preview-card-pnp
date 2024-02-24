@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Figtree;
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+html {
+    font-size: 16px;
+    font-family: Figtree;
+}
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height:500px;
+    margin:5rem auto;
+    /* padding: 1.5rem; */
+    border-radius: 1rem;
+    box-shadow: 10px 10px black;
+}
+main>* {
+    margin-left: 1.5rem;
+    margin-right:1.5rem;
+}
+
+#illustration {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#illustration img {
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+#illustration, #publish-date, #heading, #article-type, #text {   
+    margin-bottom: 1.5rem;
+    
+}
+
+#article-type span {
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+}
+#heading {
+    margin-right:auto;
+}
+#heading-link{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+}
+
+#heading-link:hover{
+    display: inline;
+    color: hsl(47, 88%, 63%);
+}
+
+#author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+#author img {
+    width:2rem;
+    aspect-ratio: 1/1;
+    margin-right: 1rem;
+}
+
+#article-type, #author, #heading, #author {
+    font-weight: 800;
+}
+
+@media (max-width:375px) {
+    main{
+        width:325px;
+        height:500px;
+    }
+}
+
+@media (min-width:1440px) {
+    main{
+        width:380px;
+        height:520px;
+    }
+}
+
+@media (min-width:376px) and (max-width:1439px) {
+    main {
+        width: 320px;
+        height:500px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
