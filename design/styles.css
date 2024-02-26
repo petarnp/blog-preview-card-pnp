@@ -12,7 +12,6 @@ html {
 }
 
 body {
-    font-family: "Figtree";
     background-color: hsl(47, 88%, 63%);
     margin:  auto;
     display: flex;
@@ -31,6 +30,7 @@ main {
     box-shadow: 10px 10px black;
 }
 main>* {
+    font-family: "Figtree";
     margin-left: 1.5rem;
     margin-right:1.5rem;
 }
