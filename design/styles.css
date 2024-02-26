@@ -48,6 +48,8 @@ main>* {
 
 #illustration, #publish-date, #heading, #article-type, #text {   
     margin-bottom: 1.5rem;
+    font-family: "Figtree";
+    font-weight:300;
     
 }
 
